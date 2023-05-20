@@ -2,10 +2,11 @@
 // import RenderProps from './patterns/RenderProps';
 // import ContainerComponent from './patterns/ContainerComponent';
 // import ControlledComponent from './patterns/ControlledComponent';
-import Provider from './patterns/Provider';
+// import Provider from './patterns/Provider';
+import CompoundComponentApp from './patterns/CompoundComponent';
 
 function App() {
-  return (<Provider />);
+  return (<CompoundComponentApp />);
 }
 
 export default App;
