@@ -8,10 +8,11 @@
 // import Reducer from './patterns/Reducer';
 // import StateHoisting from './patterns/StateHoisting';
 // import StateInitialization from './patterns/StateInitialization';
-import SmartComponent from './patterns/SmartDumbComponent';
+// import SmartComponent from './patterns/SmartDumbComponent';
+import EventBusComponent from './patterns/EventBus';
 
 function App() {
-  return (<SmartComponent />);
+  return (<EventBusComponent />);
 }
 
 export default App;
