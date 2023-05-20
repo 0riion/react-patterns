@@ -1,9 +1,10 @@
 // import HigherOrderComponent from './patterns/HigherOrderComponent';
 // import RenderProps from './patterns/RenderProps';
-import ContainerComponent from './patterns/ContainerComponent';
+// import ContainerComponent from './patterns/ContainerComponent';
+import ControlledComponent from './patterns/ControlledComponent';
 
 function App() {
-  return (<ContainerComponent />);
+  return (<ControlledComponent />);
 }
 
 export default App;
