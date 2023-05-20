@@ -5,10 +5,11 @@
 // import Provider from './patterns/Provider';
 // import CompoundComponentApp from './patterns/CompoundComponent';
 // import ConditionalRendering from './patterns/ConditionalRendering';
-import Reducer from './patterns/Reducer';
+// import Reducer from './patterns/Reducer';
+import StateHoisting from './patterns/StateHoisting';
 
 function App() {
-  return (<Reducer />);
+  return (<StateHoisting />);
 }
 
 export default App;
