@@ -7,10 +7,11 @@
 // import ConditionalRendering from './patterns/ConditionalRendering';
 // import Reducer from './patterns/Reducer';
 // import StateHoisting from './patterns/StateHoisting';
-import StateInitialization from './patterns/StateInitialization';
+// import StateInitialization from './patterns/StateInitialization';
+import SmartComponent from './patterns/SmartDumbComponent';
 
 function App() {
-  return (<StateInitialization name='Julio' age={100} />);
+  return (<SmartComponent />);
 }
 
 export default App;
