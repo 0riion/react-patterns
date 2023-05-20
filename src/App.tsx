@@ -4,10 +4,11 @@
 // import ControlledComponent from './patterns/ControlledComponent';
 // import Provider from './patterns/Provider';
 // import CompoundComponentApp from './patterns/CompoundComponent';
-import ConditionalRendering from './patterns/ConditionalRendering';
+// import ConditionalRendering from './patterns/ConditionalRendering';
+import Reducer from './patterns/Reducer';
 
 function App() {
-  return (<ConditionalRendering />);
+  return (<Reducer />);
 }
 
 export default App;
