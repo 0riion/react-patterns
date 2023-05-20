@@ -1,7 +1,8 @@
-import HigherOrderComponent from './patterns/HigherOrderComponent';
+// import HigherOrderComponent from './patterns/HigherOrderComponent';
+import RenderProps from './patterns/RenderProps';
 
 function App() {
-  return (<HigherOrderComponent />);
+  return (<RenderProps />);
 }
 
 export default App;
