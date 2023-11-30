@@ -56,4 +56,3 @@ Here are some additional resources to further explore React patterns:
 - [React Design Patterns and Best Practices](https://www.amazon.com/React-Design-Patterns-Best-Practices/dp/1786464535)
 
 - [React Patterns](https://reactpatterns.com/)
-
