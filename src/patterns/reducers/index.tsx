@@ -1,7 +1,18 @@
+import { useContext } from "react";
 import CharacterList from "../../components/CharacterList";
-import useReducerPattern from "./hook";
+import Provider, { CharacterContext } from "./Provider";
 
-export default function ReducerPattern() {
-  const { characters, loading, error } = useReducerPattern();
-  return <CharacterList characters={characters} loading={loading} error={error} />;
+function ReducerProviderPattern() {
+  const { characters, loading, error } = useContext(CharacterContext);
+  return (
+    <CharacterList characters={characters} loading={loading} error={error} />
+  );
+}
+
+export default function Wrapper() {
+  return (
+    <Provider>
+      <ReducerProviderPattern />
+    </Provider>
+  );
 }
