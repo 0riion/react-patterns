@@ -6,6 +6,8 @@
 // import CompoundComponent from "./patterns/compound-component";
 // import PropsCombination from "./patterns/props-combination";
 
+import RefCustomComponent from "./patterns/ref-custom-component";
+
 // INFO: you can uncomment the react pattern that you may want to use
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
       {/* <HighOrderComponent /> */}
       {/* <CompoundComponent /> */}
       {/* <PropsCombination /> */}
+      <RefCustomComponent />
     </>
   );
 }
