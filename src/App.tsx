@@ -3,6 +3,8 @@
 // import ReducerPattern from "./patterns/reducers";
 // import ReducerProviderPattern from "./patterns/reducers-provider";
 
+import HighOrderComponent from "./patterns/high-order-component";
+
 // INFO: you can uncomment the react pattern that you may want to use
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
       {/* <ComponentCompositionWithHook /> */}
       {/* <ReducerPattern /> */}
       {/* <ReducerProviderPattern />   */}
+      <HighOrderComponent />
     </>
   );
 }
