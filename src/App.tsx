@@ -7,8 +7,8 @@
 // import PropsCombination from "./patterns/props-combination";
 // import RefCustomComponent from "./patterns/ref-custom-component";
 // import ConditionalRender from "./patterns/conditional-render";
-
-import RenderProps from "./patterns/render-props";
+// import RenderProps from "./patterns/render-props";
+// import AbortController from "./patterns/abort-controller";
 
 
 // INFO: you can uncomment the react pattern that you may want to use
@@ -25,7 +25,8 @@ function App() {
       {/* <PropsCombination /> */}
       {/* <RefCustomComponent /> */}
       {/* <ConditionalRender /> */}
-      <RenderProps />
+      {/* <RenderProps /> */}
+      {/* <AbortController /> */}
     </>
   );
 }
