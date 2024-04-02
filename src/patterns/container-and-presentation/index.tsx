@@ -4,8 +4,8 @@
  */
 
 import { useEffect, useState } from "react";
-import CharacterList from "./CharacterList";
-import { Character } from "./types";
+import CharacterList from "../../components/CharacterList";
+import { Character } from "../../@types/characters";
 
 /**
  * The CharactersContainer component is of the logic (fetching data, handling events, validations, etc)

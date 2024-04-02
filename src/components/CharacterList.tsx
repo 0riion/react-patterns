@@ -1,4 +1,4 @@
-import { Character } from "./types";
+import { Character } from "../@types/characters";
 
 interface CharacterListProps {
   characters: Character[];
