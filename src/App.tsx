@@ -5,8 +5,11 @@
 // import HighOrderComponent from "./patterns/high-order-component";
 // import CompoundComponent from "./patterns/compound-component";
 // import PropsCombination from "./patterns/props-combination";
+// import RefCustomComponent from "./patterns/ref-custom-component";
+// import ConditionalRender from "./patterns/conditional-render";
 
-import RefCustomComponent from "./patterns/ref-custom-component";
+import RenderProps from "./patterns/render-props";
+
 
 // INFO: you can uncomment the react pattern that you may want to use
 
@@ -20,7 +23,9 @@ function App() {
       {/* <HighOrderComponent /> */}
       {/* <CompoundComponent /> */}
       {/* <PropsCombination /> */}
-      <RefCustomComponent />
+      {/* <RefCustomComponent /> */}
+      {/* <ConditionalRender /> */}
+      <RenderProps />
     </>
   );
 }
